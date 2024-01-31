@@ -172,3 +172,9 @@ I'm using [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP).
 	border-radius: var(--border-radius);
 }
 ```
+
+## Yomichan Settings
+Go to 'Anki > Configure Anki card format…' in yomichan settings and set up the card format.
+
+![obraz](https://github.com/Michael-128/clean-anki-cards/assets/116978510/5f964364-e7cf-4a43-a938-7c78a070c751)
+
