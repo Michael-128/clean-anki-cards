@@ -1,2 +1,2 @@
-# clean-anki-cards
-Clean anki cards made for japanese vocab mining and writing practice.
+# Clean Anki Cards 📜
+Anki card templates made for japanese vocab mining & writing practice.
