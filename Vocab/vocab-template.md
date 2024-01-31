@@ -1,6 +1,17 @@
 # Clean Vocab Template
+## Setup
+Copy the following HTML & CSS into your card template.
 
-## Front
+#### Optional
+Install a custom font.
+- Follow this [guide](https://docs.ankiweb.net/templates/styling.html#installing-fonts) to set up custom font in Anki
+- Replace the font url in Style section
+	- From: `@font-face { font-family: FontJP; src: url('_NotoSansJP-Regular.ttf'); }`
+	- To: `@font-face { font-family: FontJP; src: url('_(your font file name)'); }`
+
+I'm using [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP).
+
+## Front Template
 ```html
 <div id="frontSide">
 	<div id="term">{{Term}}</div>
@@ -18,7 +29,7 @@
 </script>
 ```
 
-## Back
+## Back Template
 ```html
 <div id="bothSides">
 	{{FrontSide}}
@@ -61,8 +72,7 @@
 
 ## Style
 ```css
-@font-face { font-family: NS JP; src: url('_NotoSansJP-Regular.otf'); }
-@font-face { font-family: textbook; src: url('_HGSKyokashotai.ttf'); }
+@font-face { font-family: FontJP; src: url('_NotoSansJP-Regular.ttf'); }
 
 .card {
 	margin: 0;
@@ -74,7 +84,7 @@
 }
 
 .card * {
-	font-family: NS JP, sans-serif;
+	font-family: FontJP, sans-serif;
 }
 
 .card #frontSide, .card #backSide, .card #screenshot {
@@ -88,7 +98,7 @@
 
 .card.nightMode #frontSide, .card.nightMode #backSide, .card.nightMode #screenshot {
 	background-color: rgba(255,255,255,0.05);
-}
+} 
 
 .card #term {
 	font-size: xx-large;
