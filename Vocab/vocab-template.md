@@ -60,7 +60,7 @@
 ```
 
 ## Style
-```html
+```css
 @font-face { font-family: NS JP; src: url('_NotoSansJP-Regular.otf'); }
 @font-face { font-family: textbook; src: url('_HGSKyokashotai.ttf'); }
 
